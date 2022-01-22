@@ -6,6 +6,16 @@
         <title>タスクリスト</title>
     </head>
     <body>
-
+        <div id="wrapper">
+            <div id="header">
+                <h1>タスクリスト アプリケーション</h1>
+            </div>
+            <div id="content">
+                ${param.content}
+            </div>
+            <div id="footer">
+                by Shinnosuke Ishida.
+            </div>
+        </div>
     </body>
 </html>
